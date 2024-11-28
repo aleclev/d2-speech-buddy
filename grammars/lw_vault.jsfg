@@ -1,0 +1,7 @@
+#JSGF V1.0; 
+grammar vault_grammar; 
+
+public <vault_grammar> = <side> <umbra_type> 
+<side> = spire | rock | forest;
+<umbra_type> = ant | pen;
+
